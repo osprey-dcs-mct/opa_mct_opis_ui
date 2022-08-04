@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>755</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MCT Overview</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>941</width>
+       <height>755</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <widget class="QELabel" name="qelabel_12">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>400</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+      <property name="variable" stdset="0">
+       <string>MCTMONO01:IN_SERVICE</string>
+      </property>
+      <property name="notation" stdset="0">
+       <enum>QELabel::Scientific</enum>
+      </property>
+     </widget>
+     <widget class="QESimpleShape" name="qesimpleshape_25">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>400</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="colour1" stdset="0">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="variable" stdset="0">
+       <string>MCTMONO01:IN_SERVICE_CALC</string>
+      </property>
+      <property name="displayAlarmStateOption" stdset="0">
+       <enum>QESimpleShape::Never</enum>
+      </property>
+     </widget>
+     <widget class="QELabel" name="qelabel_14">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>430</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+      <property name="variable" stdset="0">
+       <string>MCTMONO01:IN_POSITION</string>
+      </property>
+      <property name="notation" stdset="0">
+       <enum>QELabel::Scientific</enum>
+      </property>
+     </widget>
+     <widget class="QESimpleShape" name="qesimpleshape_26">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>430</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="variable" stdset="0">
+       <string>MCTMONO01:IN_POSITION</string>
+      </property>
+      <property name="displayAlarmStateOption" stdset="0">
+       <enum>QESimpleShape::Never</enum>
+      </property>
+     </widget>
+     <widget class="QELabel" name="qelabel_16">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>400</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+      <property name="variable" stdset="0">
+       <string>MCTVBM01:IN_SERVICE</string>
+      </property>
+      <property name="notation" stdset="0">
+       <enum>QELabel::Scientific</enum>
+      </property>
+     </widget>
+     <widget class="QELabel" name="qelabel_17">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>430</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+      <property name="variable" stdset="0">
+       <string>MCTVBM01:IN_POSITION</string>
+      </property>
+      <property name="notation" stdset="0">
+       <enum>QELabel::Scientific</enum>
+      </property>
+     </widget>
+     <widget class="QESimpleShape" name="qesimpleshape_29">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>430</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="variable" stdset="0">
+       <string>MCTMONO01:IN_POSITION</string>
+      </property>
+      <property name="displayAlarmStateOption" stdset="0">
+       <enum>QESimpleShape::Never</enum>
+      </property>
+     </widget>
+     <widget class="QESimpleShape" name="qesimpleshape_30">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>400</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="format" stdset="0">
+       <enum>QSimpleShape::FixedText</enum>
+      </property>
+      <property name="colour0" stdset="0">
+       <color>
+        <red>200</red>
+        <green>200</green>
+        <blue>200</blue>
+       </color>
+      </property>
+      <property name="colour1" stdset="0">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="variable" stdset="0">
+       <string>MCTVBM01:IN_SERVICE_CALC</string>
+      </property>
+      <property name="displayAlarmStateOption" stdset="0">
+       <enum>QESimpleShape::Never</enum>
+      </property>
+     </widget>
+     <widget class="QELabel" name="qelabel_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>180</y>
+        <width>906</width>
+        <height>195</height>
+       </rect>
+      </property>
+      <property name="pixmap">
+       <pixmap>Images/MCT_PDS_overview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>238</x>
+        <y>380</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>DMM</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>380</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SLT01</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>380</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>VBM</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>380</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SLT02</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>380</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SLT03</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>980</x>
+        <y>380</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TBL01</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>1290</x>
+        <y>380</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TBL02</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>460</y>
+        <width>161</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_table_control.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>TABLE=MCTTBL01:,CS=CS1:</string>
+      </property>
+     </widget>
+     <widget class="QELabel" name="qelabel_7">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>190</y>
+        <width>600</width>
+        <height>235</height>
+       </rect>
+      </property>
+      <property name="pixmap">
+       <pixmap>Images/Hutch B - White Beam.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_2">
+      <property name="geometry">
+       <rect>
+        <x>1290</x>
+        <y>460</y>
+        <width>161</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_table_control.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>TABLE=MCTTBL02:,CS=CS2:</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_8">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>650</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="userLevelVisibility" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="userLevelEnabled" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>ppmac1motor_sl.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>MOTOR=MCTTBL01:CS1:HEIGHT</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_9">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>700</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="userLevelVisibility" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="userLevelEnabled" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>ppmac1motor_sl.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>MOTOR=MCTTBL01:CS1:PITCH</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_10">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>110</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="userLevelVisibility" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="userLevelEnabled" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>ppmac1motor_sl.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>MOTOR=MCTTBL02:CS2:HEIGHT</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_11">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>60</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="userLevelVisibility" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="userLevelEnabled" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>ppmac1motor_sl.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>MOTOR=MCTTBL02:CS2:PITCH</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>430</y>
+        <width>142</width>
+        <height>142</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_slit_status.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>SLIT=MCTSLT01:</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_4">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>430</y>
+        <width>142</width>
+        <height>142</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_slit_status.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>SLIT=MCTSLT02:</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_5">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>430</y>
+        <width>142</width>
+        <height>142</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_slit_status.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>SLIT=MCTSLT03:</string>
+      </property>
+     </widget>
+     <zorder>qelabel_7</zorder>
+     <zorder>qelabel_6</zorder>
+     <zorder>qelabel_12</zorder>
+     <zorder>qesimpleshape_25</zorder>
+     <zorder>qelabel_14</zorder>
+     <zorder>qesimpleshape_26</zorder>
+     <zorder>qelabel_16</zorder>
+     <zorder>qelabel_17</zorder>
+     <zorder>qesimpleshape_29</zorder>
+     <zorder>qesimpleshape_30</zorder>
+     <zorder>label</zorder>
+     <zorder>label_2</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_4</zorder>
+     <zorder>label_5</zorder>
+     <zorder>label_6</zorder>
+     <zorder>label_7</zorder>
+     <zorder>qeform</zorder>
+     <zorder>qeform_2</zorder>
+     <zorder>qeform_8</zorder>
+     <zorder>qeform_9</zorder>
+     <zorder>qeform_10</zorder>
+     <zorder>qeform_11</zorder>
+     <zorder>qeform_3</zorder>
+     <zorder>qeform_4</zorder>
+     <zorder>qeform_5</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QEForm</class>
+   <extends>QWidget</extends>
+   <header>QEForm.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QELabel</class>
+   <extends>QLabel</extends>
+   <header>QELabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QESimpleShape</class>
+   <extends>QSimpleShape</extends>
+   <header>QESimpleShape.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QSimpleShape</class>
+   <extends>QWidget</extends>
+   <header>QSimpleShape.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
