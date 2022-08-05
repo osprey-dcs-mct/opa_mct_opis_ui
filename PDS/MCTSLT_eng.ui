@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>851</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MCT Overview</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>941</width>
+       <height>755</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MCTSLT01</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>30</y>
+        <width>142</width>
+        <height>142</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_slit_status.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>SLIT=MCTSLT01:</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_4">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>10</y>
+        <width>1001</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_slit_target.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>SLIT=MCTSLT01:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>230</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MCTSLT02</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>260</y>
+        <width>142</width>
+        <height>142</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_slit_status.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>SLIT=MCTSLT02:</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_6">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>240</y>
+        <width>1001</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_slit_target.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>SLIT=MCTSLT02:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>460</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MCTSLT03</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>490</y>
+        <width>142</width>
+        <height>142</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_slit_status.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>SLIT=MCTSLT03:</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_8">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>470</y>
+        <width>1001</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_slit_target.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>SLIT=MCTSLT03:</string>
+      </property>
+     </widget>
+     <zorder>qeform_4</zorder>
+     <zorder>label_2</zorder>
+     <zorder>qeform_3</zorder>
+     <zorder>label_3</zorder>
+     <zorder>qeform_5</zorder>
+     <zorder>qeform_6</zorder>
+     <zorder>label_4</zorder>
+     <zorder>qeform_7</zorder>
+     <zorder>qeform_8</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QEForm</class>
+   <extends>QWidget</extends>
+   <header>QEForm.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>

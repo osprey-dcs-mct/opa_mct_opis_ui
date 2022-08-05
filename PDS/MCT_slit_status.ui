@@ -71,7 +71,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>X Gap</string>
+       <string>H Size</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -201,7 +201,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>X Ctr</string>
+       <string>H Ctr</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -364,7 +364,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Y Gap</string>
+       <string>V Size</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -380,7 +380,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Y Ctr</string>
+       <string>V Ctr</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
