@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1600</width>
-    <height>755</height>
+    <height>851</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -461,7 +461,7 @@
       <property name="geometry">
        <rect>
         <x>1010</x>
-        <y>60</y>
+        <y>160</y>
         <width>571</width>
         <height>51</height>
        </rect>
@@ -527,6 +527,94 @@
        <string>SLIT=MCTSLT03:</string>
       </property>
      </widget>
+     <widget class="QEForm" name="qeform_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>590</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="userLevelVisibility" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="userLevelEnabled" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>ppmac1motor_sl.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>MOTOR=MCTSLT01:HSIZE</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_13">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>640</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="userLevelVisibility" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="userLevelEnabled" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>ppmac1motor_sl.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>MOTOR=MCTSLT01:HCENTRE</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_14">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>690</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="userLevelVisibility" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="userLevelEnabled" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>ppmac1motor_sl.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>MOTOR=MCTSLT01:VSIZE</string>
+      </property>
+     </widget>
+     <widget class="QEForm" name="qeform_15">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>740</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="userLevelVisibility" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="userLevelEnabled" stdset="0">
+       <enum>QEAbstractWidget::User</enum>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>ppmac1motor_sl.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>MOTOR=MCTSLT01:VCENTRE</string>
+      </property>
+     </widget>
      <zorder>qelabel_7</zorder>
      <zorder>qelabel_6</zorder>
      <zorder>qelabel_12</zorder>
@@ -553,6 +641,10 @@
      <zorder>qeform_3</zorder>
      <zorder>qeform_4</zorder>
      <zorder>qeform_5</zorder>
+     <zorder>qeform_12</zorder>
+     <zorder>qeform_13</zorder>
+     <zorder>qeform_14</zorder>
+     <zorder>qeform_15</zorder>
     </widget>
    </item>
   </layout>
