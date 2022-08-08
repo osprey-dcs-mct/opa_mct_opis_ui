@@ -518,7 +518,7 @@
        <string>ppmac1motor_sl.ui</string>
       </property>
       <property name="variableSubstitutions" stdset="0">
-       <string>MOTOR=MCTSLT01:HSIZE</string>
+       <string>MOTOR=$(SLIT)HSIZE</string>
       </property>
      </widget>
      <widget class="QEForm" name="qeform_13">
@@ -540,7 +540,7 @@
        <string>ppmac1motor_sl.ui</string>
       </property>
       <property name="variableSubstitutions" stdset="0">
-       <string>MOTOR=MCTSLT01:HCENTRE</string>
+       <string>MOTOR=$(SLIT)HCENTRE</string>
       </property>
      </widget>
      <widget class="QEForm" name="qeform_14">
@@ -562,7 +562,7 @@
        <string>ppmac1motor_sl.ui</string>
       </property>
       <property name="variableSubstitutions" stdset="0">
-       <string>MOTOR=MCTSLT01:VSIZE</string>
+       <string>MOTOR=$(SLIT)VSIZE</string>
       </property>
      </widget>
      <widget class="QEForm" name="qeform_15">
@@ -584,7 +584,7 @@
        <string>ppmac1motor_sl.ui</string>
       </property>
       <property name="variableSubstitutions" stdset="0">
-       <string>MOTOR=MCTSLT01:VCENTRE</string>
+       <string>MOTOR=$(SLIT)VCENTRE</string>
       </property>
      </widget>
      <widget class="QEShape" name="qeshape">
