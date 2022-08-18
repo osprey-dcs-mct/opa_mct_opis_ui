@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1043</width>
-    <height>235</height>
+    <width>1171</width>
+    <height>230</height>
    </rect>
   </property>
   <property name="sizePolicy">
-   <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
     <horstretch>0</horstretch>
     <verstretch>0</verstretch>
    </sizepolicy>
@@ -48,7 +48,7 @@
      </property>
      <property name="minimumSize">
       <size>
-       <width>1011</width>
+       <width>1171</width>
        <height>221</height>
       </size>
      </property>
@@ -502,7 +502,7 @@
      <widget class="QEForm" name="qeform_12">
       <property name="geometry">
        <rect>
-        <x>440</x>
+        <x>600</x>
         <y>20</y>
         <width>571</width>
         <height>51</height>
@@ -524,7 +524,7 @@
      <widget class="QEForm" name="qeform_13">
       <property name="geometry">
        <rect>
-        <x>440</x>
+        <x>600</x>
         <y>70</y>
         <width>571</width>
         <height>51</height>
@@ -546,7 +546,7 @@
      <widget class="QEForm" name="qeform_14">
       <property name="geometry">
        <rect>
-        <x>440</x>
+        <x>600</x>
         <y>120</y>
         <width>571</width>
         <height>51</height>
@@ -568,7 +568,7 @@
      <widget class="QEForm" name="qeform_15">
       <property name="geometry">
        <rect>
-        <x>440</x>
+        <x>600</x>
         <y>170</y>
         <width>571</width>
         <height>51</height>
@@ -647,7 +647,7 @@
      <widget class="QELabel" name="qelabel_33">
       <property name="geometry">
        <rect>
-        <x>480</x>
+        <x>540</x>
         <y>0</y>
         <width>131</width>
         <height>20</height>
@@ -839,15 +839,129 @@
        <rect>
         <x>440</x>
         <y>0</y>
-        <width>41</width>
+        <width>101</width>
         <height>20</height>
        </rect>
       </property>
       <property name="text">
-       <string>Mode</string>
+       <string>Beamline mode</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QERadioGroup" name="qeradiogroup">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>60</y>
+        <width>101</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="displayAlarmStateOption" stdset="0">
+       <enum>QEAbstractWidget::Never</enum>
+      </property>
+      <property name="variable" stdset="0">
+       <string>$(SLIT)OP_MODE</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string/>
+      </property>
+      <property name="elementsRequired">
+       <number>0</number>
+      </property>
+      <property name="title" stdset="0">
+       <string> Move Mode </string>
+      </property>
+      <property name="columns">
+       <number>1</number>
+      </property>
+      <property name="buttonStyle">
+       <enum>QRadioGroup::Radio</enum>
+      </property>
+      <property name="buttonOrder">
+       <enum>QRadioGroup::colMajor</enum>
+      </property>
+     </widget>
+     <widget class="VCLStartPushButton" name="vclstartpushbutton_2">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>160</y>
+        <width>101</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Move All</string>
+      </property>
+      <property name="variable" stdset="0">
+       <string>$(SLIT)ALL_MOVE.PROC</string>
+      </property>
+     </widget>
+     <widget class="VCLStartPushButton" name="vclstartpushbutton_3">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>30</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Move</string>
+      </property>
+      <property name="variable" stdset="0">
+       <string>$(SLIT)HSIZE_MOVE.PROC</string>
+      </property>
+     </widget>
+     <widget class="VCLStartPushButton" name="vclstartpushbutton_4">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>80</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Move</string>
+      </property>
+      <property name="variable" stdset="0">
+       <string>$(SLIT)HCENTRE_MOVE.PROC</string>
+      </property>
+     </widget>
+     <widget class="VCLStartPushButton" name="vclstartpushbutton_5">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>130</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Move</string>
+      </property>
+      <property name="variable" stdset="0">
+       <string>$(SLIT)VSIZE_MOVE.PROC</string>
+      </property>
+     </widget>
+     <widget class="VCLStartPushButton" name="vclstartpushbutton_6">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>180</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Move</string>
+      </property>
+      <property name="variable" stdset="0">
+       <string>$(SLIT)VCENTRE_MOVE.PROC</string>
       </property>
      </widget>
      <zorder>label_12</zorder>
@@ -888,6 +1002,12 @@
      <zorder>qelink_3</zorder>
      <zorder>qelink_4</zorder>
      <zorder>label_18</zorder>
+     <zorder>qeradiogroup</zorder>
+     <zorder>vclstartpushbutton_2</zorder>
+     <zorder>vclstartpushbutton_3</zorder>
+     <zorder>vclstartpushbutton_4</zorder>
+     <zorder>vclstartpushbutton_5</zorder>
+     <zorder>vclstartpushbutton_6</zorder>
     </widget>
    </item>
   </layout>
@@ -904,6 +1024,16 @@
    <header>QELabel.h</header>
   </customwidget>
   <customwidget>
+   <class>QEPushButton</class>
+   <extends>QPushButton</extends>
+   <header>QEPushButton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QERadioGroup</class>
+   <extends>QWidget</extends>
+   <header>QERadioGroup.h</header>
+  </customwidget>
+  <customwidget>
    <class>QEShape</class>
    <extends>QWidget</extends>
    <header>QEShape.h</header>
@@ -912,6 +1042,11 @@
    <class>QELink</class>
    <extends>QLabel</extends>
    <header>QELink.h</header>
+  </customwidget>
+  <customwidget>
+   <class>VCLStartPushButton</class>
+   <extends>QEPushButton</extends>
+   <header>VCLStartPushButton.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>301</width>
+    <height>201</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MCT Configuration</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>301</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <widget class="QECheckBox" name="qecheckbox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>102</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Use Mono?</string>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)MONO01_STATUS_CMD</string>
+    </property>
+    <property name="subscribe">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QECheckBox" name="qecheckbox_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>0</y>
+      <width>102</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Use Mirror?</string>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)VBM01_STATUS_CMD</string>
+    </property>
+   </widget>
+   <widget class="QELineEdit" name="qelineedit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>125</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)ENERGY_SP</string>
+    </property>
+   </widget>
+   <widget class="QELineEdit" name="qelineedit_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>125</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)VBM01_CRIT_ENERGY_SP</string>
+    </property>
+   </widget>
+   <widget class="QESimpleShape" name="qesimpleshape_27">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="colour0" stdset="0">
+     <color>
+      <red>200</red>
+      <green>200</green>
+      <blue>200</blue>
+     </color>
+    </property>
+    <property name="colour1" stdset="0">
+     <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)MONO01_STRIPE_RUC_CMD</string>
+    </property>
+    <property name="displayAlarmStateOption" stdset="0">
+     <enum>QESimpleShape::Never</enum>
+    </property>
+   </widget>
+   <widget class="QESimpleShape" name="qesimpleshape_28">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="colour0" stdset="0">
+     <color>
+      <red>200</red>
+      <green>200</green>
+      <blue>200</blue>
+     </color>
+    </property>
+    <property name="colour1" stdset="0">
+     <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)MONO01_STRIPE_VB4C_CMD</string>
+    </property>
+    <property name="displayAlarmStateOption" stdset="0">
+     <enum>QESimpleShape::Never</enum>
+    </property>
+   </widget>
+   <widget class="QESimpleShape" name="qesimpleshape_29">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="colour0" stdset="0">
+     <color>
+      <red>200</red>
+      <green>200</green>
+      <blue>200</blue>
+     </color>
+    </property>
+    <property name="colour1" stdset="0">
+     <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)MONO01_STRIPE_WB4C_CMD</string>
+    </property>
+    <property name="displayAlarmStateOption" stdset="0">
+     <enum>QESimpleShape::Never</enum>
+    </property>
+   </widget>
+   <widget class="QERadioGroup" name="qeradiogroup">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>121</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="displayAlarmStateOption" stdset="0">
+     <enum>QEAbstractWidget::Never</enum>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)MONO01_BANDWIDTH_CMD</string>
+    </property>
+    <property name="variableSubstitutions" stdset="0">
+     <string/>
+    </property>
+    <property name="elementsRequired">
+     <number>0</number>
+    </property>
+    <property name="title" stdset="0">
+     <string>Bandwidth</string>
+    </property>
+    <property name="columns">
+     <number>1</number>
+    </property>
+    <property name="buttonStyle">
+     <enum>QRadioGroup::Radio</enum>
+    </property>
+    <property name="buttonOrder">
+     <enum>QRadioGroup::colMajor</enum>
+    </property>
+   </widget>
+   <widget class="QESimpleShape" name="qesimpleshape_30">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>60</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="colour0" stdset="0">
+     <color>
+      <red>200</red>
+      <green>200</green>
+      <blue>200</blue>
+     </color>
+    </property>
+    <property name="colour1" stdset="0">
+     <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)VBM01_STRIPE_RH_CMD</string>
+    </property>
+    <property name="displayAlarmStateOption" stdset="0">
+     <enum>QESimpleShape::Never</enum>
+    </property>
+   </widget>
+   <widget class="QESimpleShape" name="qesimpleshape_31">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>80</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="colour0" stdset="0">
+     <color>
+      <red>200</red>
+      <green>200</green>
+      <blue>200</blue>
+     </color>
+    </property>
+    <property name="colour1" stdset="0">
+     <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)VBM01_STRIPE_PT_CMD</string>
+    </property>
+    <property name="displayAlarmStateOption" stdset="0">
+     <enum>QESimpleShape::Never</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ru/C stripe</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>V/B4C stripe</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>W/B4C stripe</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rh stripe</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pt stripe</string>
+    </property>
+   </widget>
+   <widget class="QELink" name="qelink">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>0</y>
+      <width>25</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="comparisonValue">
+     <string>1</string>
+    </property>
+    <property name="outTrueValue">
+     <string>1</string>
+    </property>
+    <property name="outFalseValue">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>140</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rh stripe</string>
+    </property>
+   </widget>
+   <widget class="QELabel" name="qelabel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)MONO01_STATUS_CMD</string>
+    </property>
+    <property name="visible" stdset="0">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QEPushButton" name="qepushbutton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>94</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="variable" stdset="0">
+     <string>$(P)MONO01_STATUS_CMD</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QECheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>QECheckBox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QELabel</class>
+   <extends>QLabel</extends>
+   <header>QELabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QELineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>QELineEdit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QEPushButton</class>
+   <extends>QPushButton</extends>
+   <header>QEPushButton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QERadioGroup</class>
+   <extends>QWidget</extends>
+   <header>QERadioGroup.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QESimpleShape</class>
+   <extends>QSimpleShape</extends>
+   <header>QESimpleShape.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QELink</class>
+   <extends>QLabel</extends>
+   <header>QELink.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QSimpleShape</class>
+   <extends>QWidget</extends>
+   <header>QSimpleShape.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>qelabel</sender>
+   <signal>dbValueChanged(int)</signal>
+   <receiver>qelink</receiver>
+   <slot>in(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>111</x>
+     <y>17</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>132</x>
+     <y>17</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>qelink</sender>
+   <signal>out(bool)</signal>
+   <receiver>qelineedit</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>132</x>
+     <y>17</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>72</x>
+     <y>41</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

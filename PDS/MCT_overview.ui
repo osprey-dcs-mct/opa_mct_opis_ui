@@ -615,6 +615,22 @@
        <string>MOTOR=MCTSLT01:VCENTRE</string>
       </property>
      </widget>
+     <widget class="QEForm" name="qeform_6">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>0</y>
+        <width>351</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="uiFile" stdset="0">
+       <string>MCT_config_control.ui</string>
+      </property>
+      <property name="variableSubstitutions" stdset="0">
+       <string>P=MCTCFG01:</string>
+      </property>
+     </widget>
      <zorder>qelabel_7</zorder>
      <zorder>qelabel_6</zorder>
      <zorder>qelabel_12</zorder>
@@ -645,6 +661,7 @@
      <zorder>qeform_13</zorder>
      <zorder>qeform_14</zorder>
      <zorder>qeform_15</zorder>
+     <zorder>qeform_6</zorder>
     </widget>
    </item>
   </layout>

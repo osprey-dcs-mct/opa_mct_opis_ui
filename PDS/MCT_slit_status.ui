@@ -139,7 +139,7 @@
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
       <property name="variable" stdset="0">
-       <string>$(SLIT)X_GAP_STATUS</string>
+       <string>$(SLIT)HSIZE_STATUS</string>
       </property>
       <property name="notation" stdset="0">
        <enum>QELabel::Scientific</enum>
@@ -169,7 +169,7 @@
        </color>
       </property>
       <property name="variable" stdset="0">
-       <string>$(SLIT)X_GAP_STATUS</string>
+       <string>$(SLIT)HSIZE_STATUS</string>
       </property>
       <property name="displayAlarmStateOption" stdset="0">
        <enum>QESimpleShape::Never</enum>
@@ -220,7 +220,7 @@
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
       <property name="variable" stdset="0">
-       <string>$(SLIT)X_CENTRE_STATUS</string>
+       <string>$(SLIT)HCENTRE_STATUS</string>
       </property>
       <property name="notation" stdset="0">
        <enum>QELabel::Scientific</enum>
@@ -250,7 +250,7 @@
        </color>
       </property>
       <property name="variable" stdset="0">
-       <string>$(SLIT)X_CENTRE_STATUS</string>
+       <string>$(SLIT)HCENTRE_STATUS</string>
       </property>
       <property name="displayAlarmStateOption" stdset="0">
        <enum>QESimpleShape::Never</enum>
@@ -280,7 +280,7 @@
        </color>
       </property>
       <property name="variable" stdset="0">
-       <string>$(SLIT)Y_GAP_STATUS</string>
+       <string>$(SLIT)VSIZE_STATUS</string>
       </property>
       <property name="displayAlarmStateOption" stdset="0">
        <enum>QESimpleShape::Never</enum>
@@ -310,7 +310,7 @@
        </color>
       </property>
       <property name="variable" stdset="0">
-       <string>$(SLIT)Y_CENTRE_STATUS</string>
+       <string>$(SLIT)VCENTRE_STATUS</string>
       </property>
       <property name="displayAlarmStateOption" stdset="0">
        <enum>QESimpleShape::Never</enum>
@@ -329,7 +329,7 @@
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
       <property name="variable" stdset="0">
-       <string>$(SLIT)Y_GAP_STATUS</string>
+       <string>$(SLIT)VSIZE_STATUS</string>
       </property>
       <property name="notation" stdset="0">
        <enum>QELabel::Scientific</enum>
@@ -348,7 +348,7 @@
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
       <property name="variable" stdset="0">
-       <string>$(SLIT)Y_CENTRE_STATUS</string>
+       <string>$(SLIT)VCENTRE_STATUS</string>
       </property>
       <property name="notation" stdset="0">
        <enum>QELabel::Scientific</enum>
