@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>840</width>
-    <height>381</height>
+    <width>831</width>
+    <height>414</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>620</x>
-     <y>340</y>
+     <y>380</y>
      <width>201</width>
      <height>25</height>
     </rect>
@@ -26,7 +26,7 @@
     <string>Push Settings to Scan Record</string>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.LOAD</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.LOAD</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -65,7 +65,7 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.PPV</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.PPV</string>
    </property>
   </widget>
   <widget class="QELabel" name="qelabel">
@@ -78,7 +78,7 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.PPV</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.PPV</string>
    </property>
   </widget>
   <widget class="QELabel" name="qelabel_2">
@@ -91,7 +91,7 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.RPV</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.RPV</string>
    </property>
   </widget>
   <widget class="QELineEdit" name="qelineedit_2">
@@ -104,7 +104,7 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.RPV</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.RPV</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -130,7 +130,7 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.DPV</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.DPV</string>
    </property>
   </widget>
   <widget class="QELineEdit" name="qelineedit_3">
@@ -143,10 +143,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>MCTTBL01DAQ01:SumAll:MeanValue_RBV</string>
+    <string>OMITTO:random</string>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.DPV</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.DPV</string>
    </property>
   </widget>
   <widget class="QELineEdit" name="qelineedit_4">
@@ -162,7 +162,7 @@
     <string>41</string>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.NP</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.NP</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
@@ -188,7 +188,7 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.NP</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.NP</string>
    </property>
   </widget>
   <widget class="QELabel" name="qelabel_5">
@@ -201,7 +201,7 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.AR</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.AR</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
@@ -230,7 +230,7 @@
     <string>-0.100000</string>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.SP</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.SP</string>
    </property>
   </widget>
   <widget class="QELabel" name="qelabel_6">
@@ -243,7 +243,7 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.SP</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.SP</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_6">
@@ -285,7 +285,7 @@
     <string>0.100000</string>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.EP</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.EP</string>
    </property>
   </widget>
   <widget class="QELabel" name="qelabel_7">
@@ -298,14 +298,14 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.EP</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.EP</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>300</y>
+     <y>340</y>
      <width>141</width>
      <height>20</height>
     </rect>
@@ -318,26 +318,26 @@
    <property name="geometry">
     <rect>
      <x>200</x>
-     <y>300</y>
+     <y>340</y>
      <width>300</width>
      <height>23</height>
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.AFT</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.AFT</string>
    </property>
   </widget>
   <widget class="QEComboBox" name="qecombobox">
    <property name="geometry">
     <rect>
      <x>520</x>
-     <y>300</y>
+     <y>340</y>
      <width>300</width>
      <height>23</height>
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.AFT</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.AFT</string>
    </property>
   </widget>
   <widget class="QEComboBox" name="qecombobox_2">
@@ -350,7 +350,49 @@
     </rect>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTSYS01:MONO01_OPT_SCAN_PARMS.AR</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.AR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Positioner Settling Time</string>
+   </property>
+  </widget>
+  <widget class="QELineEdit" name="qelineedit_8">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>300</y>
+     <width>300</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0.100000</string>
+   </property>
+   <property name="variable" stdset="0">
+    <string>MCTCFG01:MONO01_OPT_SCAN.PDLY</string>
+   </property>
+  </widget>
+  <widget class="QELabel" name="qelabel_9">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>300</y>
+     <width>300</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="variable" stdset="0">
+    <string>MCTCFG01:MONO01_OPT_SCAN.PDLY</string>
    </property>
   </widget>
  </widget>
