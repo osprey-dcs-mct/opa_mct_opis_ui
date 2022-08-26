@@ -395,6 +395,47 @@
     <string>MCTCFG01:MONO01_OPT_SCAN.PDLY</string>
    </property>
   </widget>
+  <widget class="QEPushButton" name="qepushbutton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>380</y>
+     <width>161</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Configure 2nd Positioner</string>
+   </property>
+   <property name="variable" stdset="0">
+    <string/>
+   </property>
+   <property name="guiFile" stdset="0">
+    <string>MCT_opt_scan_parm2.ui</string>
+   </property>
+   <property name="creationOption" stdset="0">
+    <enum>QEPushButton::NewWindow</enum>
+   </property>
+  </widget>
+  <widget class="VCLStartPushButton" name="vclstartpushbutton_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>380</y>
+     <width>161</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Restore Default Settings</string>
+   </property>
+   <property name="variable" stdset="0">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 0);</string>
+   </property>
+  </widget>
  </widget>
  <customwidgets>
   <customwidget>
