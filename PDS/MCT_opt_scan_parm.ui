@@ -26,7 +26,7 @@
     <string>Push Settings to Scan Record</string>
    </property>
    <property name="variable" stdset="0">
-    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS.LOAD</string>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS_DFT.PROC</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -430,7 +430,7 @@
     <string>Restore Default Settings</string>
    </property>
    <property name="variable" stdset="0">
-    <string/>
+    <string>MCTCFG01:MONO01_OPT_SCAN_PARMS_DFT.PROC</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 170, 0);</string>
